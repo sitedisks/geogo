@@ -7,7 +7,8 @@ namespace geogo.data.Dbcontext
 
     public partial class geogocontext : DbContext, Igeogocontext
     {
-        public geogocontext() : base("name=geogocontext") { }
+        public geogocontext() : base("geogocontext") { }
+        public geogocontext(string connectionString) : base(connectionString) { }
 
         #region entities
         public virtual DbSet<tbPin> tbPins { get; set; }

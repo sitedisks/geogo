@@ -1,7 +1,6 @@
 ﻿
 namespace geogo.service.Service
 {
-    using geogo.data.Dbcontext;
     using geogo.data.Interface;
     using geogo.domain.database;
     using geogo.service.Interface;
