@@ -1,11 +1,12 @@
-﻿namespace geogo.Interface
+﻿namespace geogo.data.Interface
 {
+    using geogo.domain.database;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Core.Objects;
     using System.Data.Entity.Infrastructure;
     using System.Threading.Tasks;
-    using Models;
+  
     public interface Igeogocontext: IDisposable
     {
         Database Database { get; }

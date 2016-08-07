@@ -75,6 +75,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\geogo.domain\geogo.domain.csproj">
+      <Project>{781d5bc4-9bd1-4c48-94f0-a3c7c42c6287}</Project>
+      <Name>geogo.domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\geogo.service\geogo.service.csproj">
+      <Project>{883a46f9-e1ae-4353-a7da-40565c07956a}</Project>
+      <Name>geogo.service</Name>
+    </ProjectReference>
     <ProjectReference Include="..\geogo\geogo.data.csproj">
       <Project>{f4aa762f-ace6-4815-9e7e-418b98d63184}</Project>
       <Name>geogo.data</Name>

@@ -1,4 +1,4 @@
-namespace geogo.Models
+namespace geogo.domain.database
 {
     using System;
     using System.Collections.Generic;

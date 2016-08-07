@@ -1,9 +1,9 @@
-namespace geogo.Dbcontext
+namespace geogo.data.Dbcontext
 {
+    using geogo.data.Interface;
+    using geogo.domain.database;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    using Models;
-    using geogo.Interface;
 
     public partial class geogocontext : DbContext, Igeogocontext
     {
