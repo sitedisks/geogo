@@ -1,5 +1,7 @@
 ﻿namespace geogo.test
 {
+    using geogo.data.Dbcontext;
+    using geogo.data.Interface;
     using geogo.domain.database;
     using geogo.service.Interface;
     using geogo.service.Service;
@@ -10,7 +12,8 @@
     [TestClass]
     public class ServiceTest
     {
-        IDBAccessService _srv = new DBAccessService();
+        //IDBAccessService _srv = new DBAccessService();
+        IDBAccessService _srv = new DBAccessService(new geogocontext());
 
         [TestMethod]
         public async Task TestAllPins()

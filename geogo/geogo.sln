@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geogo.test", "geogo.test\ge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geogo.domain", "geogo.domain\geogo.domain.csproj", "{781D5BC4-9BD1-4C48-94F0-A3C7C42C6287}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geogo.api", "geogo.api\geogo.api.csproj", "{ACD65C09-6D03-4013-8E28-16C66E78B6C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{781D5BC4-9BD1-4C48-94F0-A3C7C42C6287}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{781D5BC4-9BD1-4C48-94F0-A3C7C42C6287}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{781D5BC4-9BD1-4C48-94F0-A3C7C42C6287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD65C09-6D03-4013-8E28-16C66E78B6C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD65C09-6D03-4013-8E28-16C66E78B6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD65C09-6D03-4013-8E28-16C66E78B6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD65C09-6D03-4013-8E28-16C66E78B6C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

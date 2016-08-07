@@ -12,7 +12,12 @@ namespace geogo.service.Service
 
     public class DBAccessService: IDBAccessService
     {
-        Igeogocontext _db = new geogocontext();
+        private readonly Igeogocontext _db;
+
+        public DBAccessService(Igeogocontext db) {
+            _db = db;
+        }
+
         public async Task<IList<tbPin>> GetAllPins() {
             IList<tbPin> list = new List<tbPin>();
 
