@@ -1,4 +1,4 @@
-﻿namespace geogo
+﻿namespace geogo.Interface
 {
     using System;
     using System.Data.Entity;

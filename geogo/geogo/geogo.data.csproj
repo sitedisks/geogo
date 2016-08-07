@@ -59,12 +59,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dbcontext\geogocontext.cs" />
+    <Compile Include="Interface\IgeogoDbService.cs" />
     <Compile Include="Models\tbPin.cs" />
     <Compile Include="Models\tbPinComment.cs" />
     <Compile Include="Models\tbUser.cs" />
     <Compile Include="Models\tbUserPin.cs" />
-    <Compile Include="Igeogocontext.cs" />
+    <Compile Include="Interface\Igeogocontext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\geogoDbService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

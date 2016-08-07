@@ -3,13 +3,11 @@ namespace geogo.service.Service
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Data;
     using System.Data.Entity;
     using System.Threading.Tasks;
     using geogo.Models;
     using geogo.Dbcontext;
+    using geogo.Interface;
     public class DBAccessService: IDBAccessService
     {
         Igeogocontext _db = new geogocontext();

@@ -1,11 +1,9 @@
 namespace geogo.Dbcontext
 {
-    using System;
     using System.Data.Entity;
-    using System.ComponentModel.DataAnnotations.Schema;
-    using System.Linq;
     using System.Data.Entity.Infrastructure;
     using Models;
+    using geogo.Interface;
 
     public partial class geogocontext : DbContext, Igeogocontext
     {
