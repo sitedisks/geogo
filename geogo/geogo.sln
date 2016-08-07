@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geogo.data", "geogo\geogo.data.csproj", "{F4AA762F-ACE6-4815-9E7E-418B98D63184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geogo.service", "geogo.service\geogo.service.csproj", "{883A46F9-E1AE-4353-A7DA-40565C07956A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geogo.test", "geogo.test\geogo.test.csproj", "{3C66CAE3-D4DB-48F2-9AF3-FF38BB279B33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4AA762F-ACE6-4815-9E7E-418B98D63184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4AA762F-ACE6-4815-9E7E-418B98D63184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4AA762F-ACE6-4815-9E7E-418B98D63184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4AA762F-ACE6-4815-9E7E-418B98D63184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{883A46F9-E1AE-4353-A7DA-40565C07956A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883A46F9-E1AE-4353-A7DA-40565C07956A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883A46F9-E1AE-4353-A7DA-40565C07956A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883A46F9-E1AE-4353-A7DA-40565C07956A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C66CAE3-D4DB-48F2-9AF3-FF38BB279B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C66CAE3-D4DB-48F2-9AF3-FF38BB279B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C66CAE3-D4DB-48F2-9AF3-FF38BB279B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C66CAE3-D4DB-48F2-9AF3-FF38BB279B33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
