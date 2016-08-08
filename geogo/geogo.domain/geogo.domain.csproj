@@ -53,7 +53,7 @@
     <Compile Include="database\tbPin.cs" />
     <Compile Include="database\tbPinComment.cs" />
     <Compile Include="database\tbUser.cs" />
-    <Compile Include="database\tbUserPin.cs" />
+    <Compile Include="database\tbPinUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

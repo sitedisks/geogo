@@ -20,7 +20,7 @@
         DbSet<tbPin> tbPins { get; set; }
         DbSet<tbPinComment> tbPinComments { get; set; }
         DbSet<tbUser> tbUsers { get; set; }
-        DbSet<tbUserPin> tbUserPins { get; set; }
+        DbSet<tbPinUser> tbPinUsers { get; set; }
         #endregion
     }
 }

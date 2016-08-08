@@ -14,7 +14,7 @@ namespace geogo.data.Dbcontext
         public virtual DbSet<tbPin> tbPins { get; set; }
         public virtual DbSet<tbPinComment> tbPinComments { get; set; }
         public virtual DbSet<tbUser> tbUsers { get; set; }
-        public virtual DbSet<tbUserPin> tbUserPins { get; set; }
+        public virtual DbSet<tbPinUser> tbPinUsers { get; set; }
         #endregion
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -80,7 +80,7 @@ namespace geogo.data.Dbcontext
                 .WithOptional(e => e.tbUser)
                 .HasForeignKey(e => e.UserId);
 
-            modelBuilder.Entity<tbUserPin>()
+            modelBuilder.Entity<tbPinUser>()
                 .Property(e => e.MobileNumber)
                 .IsUnicode(false);
         }

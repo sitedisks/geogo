@@ -7,7 +7,7 @@ namespace geogo.domain.database
     using System.Data.Entity.Spatial;
 
     [Table("geogo.tbUserPin")]
-    public partial class tbUserPin
+    public partial class tbPinUser
     {
         public long Id { get; set; }
 

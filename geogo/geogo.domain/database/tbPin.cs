@@ -13,7 +13,7 @@ namespace geogo.domain.database
         public tbPin()
         {
             tbPinComments = new HashSet<tbPinComment>();
-            tbUserPins = new HashSet<tbUserPin>();
+            tbUserPins = new HashSet<tbPinUser>();
         }
 
         public long Id { get; set; }
@@ -46,7 +46,7 @@ namespace geogo.domain.database
         public virtual ICollection<tbPinComment> tbPinComments { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tbUserPin> tbUserPins { get; set; }
+        public virtual ICollection<tbPinUser> tbUserPins { get; set; }
 
         public virtual tbUser tbUser { get; set; }
     }
